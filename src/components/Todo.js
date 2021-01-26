@@ -7,6 +7,7 @@ const Todo = (props) => {
       className={`item${props.item.completed ? " purchased" : ""}`}
     >
       <p>{props.item.task}</p>
+      <p>Hello World</p>
     </div>
   );
 };
